@@ -177,8 +177,6 @@ const App = () => {
 
         // If this is the first message, generate title
         if (messages.length === 1) {
-          // If the message has an image, use llama3.2 for title generation
-          const titleModel = newUserMessage.image ? 'llama3.2' : currentModel;
           
           // Create a copy of the messages without the image for title generation
           const messagesForTitle = [

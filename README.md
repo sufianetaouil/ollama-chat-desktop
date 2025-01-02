@@ -52,7 +52,7 @@ ollama pull llama3.2:latest
 ```
 5. Create a build:
 ```bash
-npm run make
+npm run build
 ```
 6. Start the development server:
 ```bash
