@@ -59,14 +59,17 @@ To create a production build:
 ```bash
 # For your current platform
 npm run build
-
-# For specific platforms
-npm run build:win
-npm run build:mac
-npm run build:linux
 ```
 
-The built application will be available in the `dist` directory.
+## Packaging
+
+To create a package for your current platform:
+
+```bash
+npm run make
+```
+
+The built application will be available in the `out` directory.
 
 ## Usage
 
