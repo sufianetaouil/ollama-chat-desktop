@@ -46,19 +46,13 @@ npm install
 ```bash
 ollama serve
 ```
-
-4. Start the development server:
+4. Create a build:
+```bash
+npm run make
+```
+5. Start the development server:
 ```bash
 npm start
-```
-
-## Building
-
-To create a production build:
-
-```bash
-# For your current platform
-npm run build
 ```
 
 ## Packaging
