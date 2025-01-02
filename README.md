@@ -46,11 +46,15 @@ npm install
 ```bash
 ollama serve
 ```
-4. Create a build:
+4. Download llama3.2 used to generate conversations' titles:
+```bash
+ollama pull llama3.2:latest
+```
+5. Create a build:
 ```bash
 npm run make
 ```
-5. Start the development server:
+6. Start the development server:
 ```bash
 npm start
 ```
